@@ -2,26 +2,26 @@
 baseurl: ""
 
 # Blog Setting
-blog: True
+blog: False
 
 # Language of the website
-lang: en
+lang: ko
 
 # Search engine optimization settings
-title: Grape Academic Theme
-tagline: A jekyll theme for academic portfolios
-description: The demonstration page for the Grape Academic Theme, a jekyll theme for academic portfolios based on the Grape Theme.
-author: Christoph Jabs (chrjabs)
+title: Donghyeon Kim's Portfolio Site
+tagline: Created By 'chrjabs/Grape-Academic-Theme'
+description: Donghyeon Kim's Portfolio and Resume Site, Powered By 'jekyll' and 'chrjabs/Grape-Achademic-Theme'.
+author: Donghyeon Kim (Bubble Kim)
 twitter:
-  username: chrjabs
-  card: A jekyll theme for academic portfolios
+  username:
+  card:
 logo: /assets/img/smile.png
 social:
-  name: Christoph Jabs
+  name: Donghyeon Kim (Bubble Kim)
   links:
-    - https://twitter.com/chrjabs
-    - https://github.com/chrjabs
-locale: en_GB
+    - https://github.com/BubbleK2m
+    - https://www.linkedin.com/in/donghyeon-kim-40654a23a
+locale: ko_KR
 
 # Page Settings
 theme_settings:

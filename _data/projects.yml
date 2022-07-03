@@ -31,12 +31,98 @@
 #           description: <li>Responsive Layout</li> 
 #             <li>Tags</li> 
 
-# - project:
-#     print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
-#     modal: True # If 'True' is selected, modal can open in 'portfolio.html'. 
-#     url:  # Full URL
-#     image: # path: assets/project/
-#     date: 06/2019 &ndash; Developing
-#     title: Dummy project
-#     summary: This is a Dummy
-#     description:  
+- project:
+    print: True
+    modal: True
+    url:
+    image:
+    date: 2021년 12월 ~ 배포 및 후속 과제 진행중
+    title: 번개장터 채팅 서비스 UI/UX 개편
+    summary:
+    description: 
+
+- project:
+    print: True
+    modal: True
+    url:
+    image:
+    date: 2021년 03월 ~ 2021년 09월
+    title: 번개장터 마이크로 서비스 분리
+    summary:
+    description: 
+
+- project:
+    print: True
+    modal: True
+    url:
+    image:
+    date: 2019년 02월 ~ 2021년 01월
+    title: 번개장터 채팅 서비스 이전
+    summary:
+    description: 
+
+- project:
+    print: True
+    modal: True
+    url:
+    image: 
+      path: gamecenterfinder.png
+    date: 2018년 4월 ~ 2018년 06월
+    title: 국내 아케이드 게임 센터 조회 서비스
+    summary:
+    description: 
+
+- project:
+    print: True
+    modal: True
+    url:
+    image:
+      path: schapi.png
+    date: 2018년 4월 ~ 2018년 05월
+    title: School API from DSM 'Schapi'
+    summary:
+    description: 
+
+- project:
+    print: True
+    modal: True
+    url: 
+    image:
+      path: ward.png
+    date: 2018년 02월 10일 ~ 2018년 02월 11일
+    title: 위치 기반의 동창 찾기 서비스 ‘와드’
+    summary:
+    description: 
+
+- project:
+    print: True
+    modal: True
+    url:
+    image:
+      path: punishment.png
+    date: 2017년 12월 ~ 2018년 02월
+    title: DSM 기숙사 상/벌점 관리 시스템
+    summary:
+    description: 
+
+- project:
+    print: True
+    modal: True
+    url:
+    image:
+      path: poemdot.png
+    date: 2017년 09월 ~ 2017년 11월
+    title: 아름다운 문학을 쓰는 서비스 '시.'
+    summary: 
+    description: 
+
+- project:
+    print: True
+    modal: True
+    url:
+    image:
+      path: nodoubt.png 
+    date: 2017년 03월 ~ 2017년 11월
+    title: 실시간 멀티 플레이어 보드게임 'No Doubt'
+    summary:
+    description:

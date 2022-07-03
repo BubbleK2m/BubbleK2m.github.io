@@ -39,7 +39,7 @@
     date: 2021년 12월 ~ 배포 및 후속 과제 진행중
     title: 번개장터 채팅 서비스 UI/UX 개편
     summary:
-    description: 
+    description: API 서버 (Kotlin, Spring Boot, Webflux), 데이터베이스 (Cloud Firestore) 개선 및 변경 사항 적용
 
 - project:
     print: True
@@ -49,7 +49,7 @@
     date: 2021년 03월 ~ 2021년 09월
     title: 번개장터 마이크로 서비스 분리
     summary:
-    description: 
+    description: 마이크로 서비스 (Kotlin, Spring Boot, Webflux) 개발
 
 - project:
     print: True
@@ -59,18 +59,7 @@
     date: 2019년 02월 ~ 2021년 01월
     title: 번개장터 채팅 서비스 이전
     summary:
-    description: 
-
-- project:
-    print: True
-    modal: True
-    url:
-    image: 
-      path: gamecenterfinder.png
-    date: 2018년 4월 ~ 2018년 06월
-    title: 국내 아케이드 게임 센터 조회 서비스
-    summary:
-    description: 
+    description: 실시간 채팅 데이터베이스 (Cloud Firestore), API 서버 (Elixir, Phoenix Framework) 개발
 
 - project:
     print: True
@@ -78,10 +67,21 @@
     url:
     image:
       path: schapi.png
-    date: 2018년 4월 ~ 2018년 05월
+    date: 2018년 4월 ~ 2018년 06월
     title: School API from DSM 'Schapi'
     summary:
-    description: 
+    description: 라이브러리 모듈 (C#, Go, Node.js, Ruby) 개발
+
+- project:
+    print: True
+    modal: True
+    url:
+    image: 
+      path: gamecenterfinder.png
+    date: 2018년 4월 ~ 2018년 05월
+    title: 국내 아케이드 게임 센터 조회 서비스
+    summary:
+    description: API 서버, 웹 크롤러 (Python, Flask, BeautifulSoup), 데이터베이스 (MongoDB) 개발
 
 - project:
     print: True
@@ -92,7 +92,7 @@
     date: 2018년 02월 10일 ~ 2018년 02월 11일
     title: 위치 기반의 동창 찾기 서비스 ‘와드’
     summary:
-    description: 
+    description: API 서버, 데이터베이스 개발 (Node.js, Koa.js, MonogoDB)
 
 - project:
     print: True
@@ -103,7 +103,7 @@
     date: 2017년 12월 ~ 2018년 02월
     title: DSM 기숙사 상/벌점 관리 시스템
     summary:
-    description: 
+    description: GUI 클라이언트 (C#, WPF) 개발
 
 - project:
     print: True
@@ -114,7 +114,7 @@
     date: 2017년 09월 ~ 2017년 11월
     title: 아름다운 문학을 쓰는 서비스 '시.'
     summary: 
-    description: 
+    description: API 서버 (Java, Vert.x), 데이터베이스 (MySQL) 개발
 
 - project:
     print: True
@@ -124,5 +124,5 @@
       path: nodoubt.png 
     date: 2017년 03월 ~ 2017년 11월
     title: 실시간 멀티 플레이어 보드게임 'No Doubt'
-    summary:
-    description:
+    summary: 
+    description: TCP 소켓 서버 (Java), 데이터베이스 (MySQL) 개발

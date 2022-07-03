@@ -1,0 +1,108 @@
+{% assign social = site.data.profile.social %}
+{% if social.email %}
+<li>
+  <a href="mailto:{{ social.email | encode_email }}" title="Email">
+    <i class="fas fa-envelope"></i>
+  </a>
+</li>
+{% endif %}
+
+{% if social.orcid %}
+<li>
+  <a href="https://orcid.org/{{ social.orcid }}", title="ORCID">
+    <i class="ai ai-orcid"></i>
+</li>
+{% endif %}
+
+{% if social.scholar %}
+<li>
+  <a href="https://scholar.google.com/citations?user={{ social.scholar }}" title="Google Scholar">
+    <i class="ai ai-google-scholar"></i>
+</li>
+{% endif %}
+
+{% if social.publons %}
+<li>
+  <a href="https://publons.com/a/{{ social.publons }}/" title="Publons">
+    <i class="ai ai-publons"></i>
+</li>
+{% endif %}
+
+{% if social.research_gate %}
+<li>
+  <a href="https://www.researchgate.net/profile/{{ social.research_gate }}/" title="ResearchGate">
+    <i class="ai ai-researchgate"></i>
+</li>
+{% endif %}
+
+{% if social.linkedin %}
+<li>
+  <a href="{{ social.linkedin }}" title="Linkedin">
+    <i class="fab fa-linkedin"></i>
+  </a>
+</li>
+{% endif %}
+
+{% if social.github %}
+<li>
+  <a href="https://github.com/{{ social.github }}" title="Github">
+    <i class="fab fa-github"></i>
+  </a>
+</li>
+{% endif %}
+
+{% if social.gitlab %}
+<li>
+  <a href="https://gitlab.com/{{ social.gitlab }}" title="Gitlab">
+    <i class="fab fa-gitlab"></i>
+  </a>
+</li>
+{% endif %}
+
+{% if social.bitbucket %}
+<li>
+  <a href="https://bitbucket.org/{{ social.bitbucket }}" title="Bitbucket">
+    <i class="fab fa-bitbucket"></i>
+  </a>
+</li>
+{% endif %}
+
+{% if social.google_plus %}
+<li>
+  <a href="https://plus.google.com/{{ social.google_plus }}" title="Google Plus">
+    <i class="fab fa-google-plus-g"></i>
+  </a>
+</li>
+{% endif %}
+
+{% if social.twitter %}
+<li>
+  <a href="https://twitter.com/{{ social.twitter }}" title="Twitter">
+    <i class="fab fa-twitter"></i>
+  </a>
+</li>
+{% endif %}
+
+{% if social.youtube %}
+<li>
+  <a href="https://www.youtube.com/user/{{ social.youtube }}" title="YouTube">
+    <i class="fab fa-youtube"></i>
+  </a>
+</li>
+{% endif %}
+
+{% if social.facebook %}
+<li>
+  <a href="https://www.facebook.com/{{ social.facebook }}" title="Facebook">
+    <i class="fab fa-facebook-f"></i>
+  </a>
+</li>
+{% endif %}
+
+{% if social.instagram %}
+<li>
+  <a href="http://instagram.com/{{ social.instagram }}" title="Instagram">
+    <i class="fab fa-instagram"></i>
+  </a>
+</li>
+{% endif %}

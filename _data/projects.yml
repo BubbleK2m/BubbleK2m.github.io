@@ -36,6 +36,7 @@
     modal: True
     url:
     image:
+      path: talkv3.png
     date: 2021년 12월 ~ 배포 및 후속 과제 진행중
     title: 번개장터 채팅 서비스 UI/UX 개편
     summary:
@@ -56,6 +57,7 @@
     modal: True
     url:
     image:
+      path: talkv2.png
     date: 2019년 02월 ~ 2021년 01월
     title: 번개장터 채팅 서비스 이전
     summary:

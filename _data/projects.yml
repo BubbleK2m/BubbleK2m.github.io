@@ -47,6 +47,16 @@
     modal: True
     url:
     image:
+    date: 2021년 09월 ~ 2021년 12월
+    title: 번개장터 채팅 서비스 DB Region 변경
+    summary:
+    description: 신규 Region 의 데이터베이스 (Cloud Firestore) 생성 및 데이터 마이그레이션
+
+- project:
+    print: True
+    modal: True
+    url:
+    image:
     date: 2021년 03월 ~ 2021년 09월
     title: 번개장터 마이크로 서비스 분리
     summary:

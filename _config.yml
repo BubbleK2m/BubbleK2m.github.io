@@ -26,12 +26,11 @@ locale: ko_KR
 # Page Settings
 theme_settings:
   title: Grape Academic Theme
-
   experience_title: EXPERIENCE
   interests_title: RESEARCH INTERESTS
   skills_title: SKILLS
   projects_title: PROJECTS
-  recentpubs_title: RECENT PUBLICATIONS
+  presentations_title: PRESENTATIONS
 
 # Pagination
 paginate: 5

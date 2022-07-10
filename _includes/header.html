@@ -8,26 +8,6 @@
         <!-- home -->
         {% when none %}
         <li class="current">Home</li>
-        <a href="{{ '/publications' | relative_url }}">
-          <li class="btn-nav">Publications</li>
-        </a>
-        <a href="{{ '/presentations' | relative_url }}">
-          <li class="btn-nav">Presentations</li>
-        </a>
-        {% if site.blog %}
-        <a href="{{ '/blog' | relative_url }}">
-          <li class="btn-nav">Blog</li>
-        </a>
-        <a href="{{ '/tags' | relative_url }}">
-          <li class="btn-nav">Tags</li>
-        </a>
-        {% endif %}
-        <!-- publications -->
-        {% when 'publications' %}
-        <a href="{{ '/'' | relative_url }}">
-          <li class="btn-nav">Home</li>
-        </a>
-        <li class="current">Publications</li>
         <a href="{{ '/presentations' | relative_url }}">
           <li class="btn-nav">Presentations</li>
         </a>
@@ -44,9 +24,6 @@
         <a href="{{ '/'' | relative_url }}">
           <li class="btn-nav">Home</li>
         </a>
-        <a href="{{ '/publications' | relative_url }}">
-          <li class="btn-nav">Publications</li>
-        </a>
         <li class="current">Presentations</li>
         {% if site.blog %}
         <a href="{{ '/blog' | relative_url }}">
@@ -60,9 +37,6 @@
         {% when 'blog' %}
         <a href="{{ '/' | relative_url }}">
           <li class="btn-nav">Home</li>
-        </a>
-        <a href="{{ '/publications' | relative_url }}">
-          <li class="btn-nav">Publications</li>
         </a>
         <a href="{{ '/presentations' | relative_url }}">
           <li class="btn-nav">Presentations</li>
@@ -78,9 +52,6 @@
         <a href="{{ '/' | relative_url }}">
           <li class="btn-nav">Home</li>
         </a>
-        <a href="{{ '/publications' | relative_url }}">
-          <li class="btn-nav">Publications</li>
-        </a>
         <a href="{{ '/presentations' | relative_url }}">
           <li class="btn-nav">Presentations</li>
         </a>
@@ -94,9 +65,6 @@
         <!-- others -->
         <a href="{{ '/' | relative_url }}">
           <li class="btn-nav">Home</li>
-        </a>
-        <a href="{{ '/publications' | relative_url }}">
-          <li class="btn-nav">Publications</li>
         </a>
         <a href="{{ '/presentations' | relative_url }}">
           <li class="btn-nav">Presentations</li>

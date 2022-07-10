@@ -1,9 +1,6 @@
 # Site Settings
 baseurl: ""
 
-# Blog Setting
-blog: False
-
 # Language of the website
 lang: ko
 
@@ -32,10 +29,6 @@ theme_settings:
   projects_title: PROJECTS
   presentations_title: PRESENTATIONS
 
-# Pagination
-paginate: 5
-paginate_path: "blog/page:num"
-
 # Build Settings
 sass:
   sass_dir: _sass
@@ -43,19 +36,6 @@ sass:
 plugins: ['jekyll-paginate', 'jekyll/scholar', 'jekyll-seo-tag']
 bootstrap:
   assets: true
-
-# Bibliography settings
-scholar:
-  bibliography: publications.bib
-  bibliography_template: pubstemplate
-  style: apa
-  locale: en
-  last_name: Me
-  first_name: [Myself, M.]
-  sort_by: year,month
-  order: descending,ascending
-
-filtered_bibtex_keywords: [abbr, abstract, arxiv, bibtex_show, html, pdf, selected, supp, blog, code, poster, slides, website] # Filter out certain bibtex entry keywords used internally from the bib output
 
 academicons:
   version: "1.9.1"

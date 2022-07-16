@@ -11,14 +11,15 @@ webpage: https://bubblek2m.github.io
 experience:
   - start: 2016년 03월
     end: 2019년 02월
-    experience : 대덕 소프트웨어 마이스터 고등학교, 소프트웨어 개발과 2기 졸업생
+    experience : 대덕 소프트웨어 마이스터고등학교 (DSM Hs.), 소프트웨어 개발과 2기 졸업생
   - start: 2018년 08월 
     end: 재직중
-    experience : 번개장터 주식회사 (Bunjang Inc.), 백엔드 소프트웨어 엔지니어
+    experience : 번개장터 (Bunjang Inc.), 백엔드 소프트웨어 엔지니어
 interests:
   - Realtime Chatting (Messenger) Service
   - Media Streaming Service
-  - RESTful API, Microservice Architecture
+  - RESTful API
+  - Microservice Architecture
 skills: 
   - skill: Kotlin (Spring Boot, Webflux, JPA)
     value: 60

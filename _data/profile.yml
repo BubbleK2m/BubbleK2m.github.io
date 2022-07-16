@@ -21,32 +21,35 @@ interests:
   - RESTful API
   - Microservice Architecture
 skills: 
-  - skill: Kotlin (Spring Boot, Webflux, JPA)
+  # Language & Lib, Frameworks
+  - skill: Kotlin
+    value: 80
+  - skill: Spring Boot
+    value: 70
+  - skill: Python
+    value: 80
+  - skill: Flask
+    value: 80
+  - skill: Django
     value: 60
-  - skill: Python (Flask, Django, SQLAlchemy)
-    value: 75
-  - skill: Node.js (Express, Koa)
-    value: 65
-  - skill: Java (Vert.X, JDBC)
-    value: 55
+  - skill: Node.js
+    value: 70
+  - skill: Express.js
+    value: 60
+  - skill: Koa.js
+    value: 60
+  - skill: Java
+    value: 50
   - skill: Go
     value: 50
-  - skill: Ruby
-    value: 45
-  - skill: Elixir (Phoenix Framework, Ecto)
-    value: 55
+  # DevOps & Etc
   - skill: Amazon Web Service
-    value: 60
+    value: 40
   - skill: Google Cloud Platform
-    value: 55
-  - skill: Firebase (Realtime Database, Cloud Firestore)
-    value: 55
-  - skill: Heroku
-    value: 45
-  - skill: RDBMS (MySQL, PostgreSQL)
-    value: 65
-  - skill: NoSQL (MongoDB)
-    value: 50
+    value: 40
+  - skill: RDBMS, SQL 
+    value: 60
+  - skill: NoSQL
 social:
   email: bubble.k2m@gmail.com
   orcid: 

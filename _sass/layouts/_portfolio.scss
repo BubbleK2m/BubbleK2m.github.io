@@ -71,6 +71,25 @@
     }
     .exper {
       padding-top: 35px;
+      ul.interests-list {
+        margin-top: 20px;
+        margin-left: 3%;
+        list-style-type: none;
+        list-style-position: inside;
+        li.interest {
+          margin: 8px auto;
+          padding-left: 5px;
+          font-size: 1rem;
+          font-weight: 600;
+        }
+        li.interest::before {
+          content: "•";
+          font-size: 200%;
+          color: $theme-color;
+          padding-right: 5px;
+          vertical-align: text-top;
+        }
+      }
       ul.exper-list {
         margin-top: 25px;
         margin-left: 3%;
@@ -161,25 +180,6 @@
             font-weight: 600;
             line-height: 1.1rem;
           }
-        }
-      }
-      ul.interests-list {
-        margin-top: 20px;
-        margin-left: 3%;
-        list-style-type: none;
-        list-style-position: inside;
-        li.interest {
-          margin: 8px auto;
-          padding-left: 5px;
-          font-size: 1rem;
-          font-weight: 600;
-        }
-        li.interest::before {
-          content: "•";
-          font-size: 200%;
-          color: $theme-color;
-          padding-right: 5px;
-          vertical-align: text-top;
         }
       }
       @keyframes progressAnimation {

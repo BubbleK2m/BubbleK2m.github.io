@@ -23,13 +23,13 @@ interests:
 skills: 
   # Language & Lib, Frameworks
   - skill: Kotlin
-    value: 80
-  - skill: Spring Boot
     value: 70
+  - skill: Spring Boot
+    value: 60
   - skill: Python
-    value: 80
+    value: 70
   - skill: Flask
-    value: 80
+    value: 60
   - skill: Django
     value: 60
   - skill: Node.js
@@ -48,7 +48,7 @@ skills:
   - skill: Google Cloud Platform
     value: 40
   - skill: RDBMS, SQL 
-    value: 60
+    value: 50
   - skill: NoSQL
     value: 40
 social:

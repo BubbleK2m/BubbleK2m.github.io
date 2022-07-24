@@ -1,99 +1,30 @@
-# - project :
-#     print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
-#     modal: True # If 'True' is selected, modal can open in 'portfolio.html'. 
-#     url: https://github.com/chrjabs/Grape-Academic-Theme # Full URL
-#     image:
-#       path: "portfolio.png" # path: assets/project/
-#       alt: "A screenshot of the portfolio page"
-#     date: 05/2022 &ndash; Developing
-#     title: Grape-Theme
-#     summary: Academic portfolio jekyll theme.
-#     description: A modification of the Grape-Theme for jekyll to be useable as an academic portfolio.
-#     contents:
-#         - title: 1. Portfolio Page
-#           image:
-#             path: portfolio.png
-#             alt: "A screenshot of the portfolio page"
-#           description: <li>Concise portfolio page</li>
-#             <li>Recent publications</li>
-#             <li>Projects</li>
-#         - title: 2. Optional Blog Functionality
-#           image:
-#             path: home.png
-#             alt: "A screenshot of the blog page"
-#           description: <li>Responsive Layout</li>
-#             <li>Tags</li> 
-#             <li>Pagination</li>
-#         - title: 3. Tags Page
-#           image:
-#             path: tags.png
-#             alt: "A screenshot of the tags page"
-#           description: <li>Responsive Layout</li> 
-#             <li>Tags</li> 
-
 - project:
     print: True
     modal: True
-    url:
-    image:
-      path: talkv3.png
-    date: 2021년 12월 ~ 배포 및 후속 과제 진행중
-    title: 번개장터 채팅 서비스 UI/UX 개편
-    summary:
-    description: API 서버 (Kotlin, Spring Boot, Webflux), 데이터베이스 (Cloud Firestore) 개선 및 변경 사항 적용
-
-- project:
-    print: True
-    modal: True
-    url:
-    image:
-    date: 2021년 09월 ~ 2021년 12월
-    title: 번개장터 채팅 서비스 DB Region 변경
-    summary:
-    description: 신규 Region 의 데이터베이스 (Cloud Firestore) 생성 및 데이터 마이그레이션
-
-- project:
-    print: True
-    modal: True
-    url:
-    image:
-    date: 2021년 03월 ~ 2021년 09월
-    title: 번개장터 마이크로 서비스 분리
-    summary:
-    description: 마이크로 서비스 (Kotlin, Spring Boot, Webflux) 개발
-
-- project:
-    print: True
-    modal: True
-    url:
-    image:
-      path: talkv2.png
-    date: 2019년 02월 ~ 2021년 01월
-    title: 번개장터 채팅 서비스 이전
-    summary:
-    description: 실시간 채팅 데이터베이스 (Cloud Firestore), API 서버 (Elixir, Phoenix Framework) 개발
-
-- project:
-    print: True
-    modal: True
-    url:
+    url: https://github.com/DSM-SchoolAPI
     image:
       path: schapi.png
     date: 2018년 4월 ~ 2018년 06월
-    title: School API from DSM 'Schapi'
-    summary:
-    description: 라이브러리 모듈 (C#, Go, Node.js, Ruby) 개발
+    title: School API from DSM, 'Schapi' 개발
+    summary: "역할: C#, Go, Node.js, Ruby 버전 'Schapi' 개발<br/>
+    사용 기술: C#, Go, Node.js, Ruby"
+    description: "‘Schapi’ 는 지역 별 교육청 웹 사이트를 파싱하여 월간 식단과 학사 일정을  
+    제공하는 Java 기반의 오픈 소스 라이브러리 'SchoolAPI' 를 Python, Go, Node.js, Kotlin 등 
+    다양한 프로그래밍 언어로 컨버팅한 오픈 소스 라이브러리입니다."
+
 
 - project:
     print: True
     modal: True
-    url:
+    url: https://github.com/Vandalism-GCF/GameCenterFinder_Server
     image: 
       path: gamecenterfinder.png
     date: 2018년 4월 ~ 2018년 05월
-    title: 국내 아케이드 게임 센터 조회 서비스
-    summary:
-    description: API 서버, 웹 크롤러 (Python, Flask, BeautifulSoup), 데이터베이스 (MongoDB) 개발
+    title: 국내 아케이드 게임 센터 정보 검색 서비스 개발
+    summary: "역할: API 서버, 웹 크롤러, 데이터베이스 개발<br/>
+    사용 기술: Python, MongoDB, Heroku"
+    description: "나무위키의 국내 아케이드 게임 센터 관련 문서들을 크롤링하여 수집한 게임 센터 별 위치, 
+    영업 시간, 보유 중인 기기 정보 등을 사용자들에게 쉽게 검색 및 조회가 가능한 형식으로 제공하는 서비스입니다."
 
 - project:
     print: True
@@ -102,39 +33,50 @@
     image:
       path: ward.png
     date: 2018년 02월 10일 ~ 2018년 02월 11일
-    title: 위치 기반의 동창 찾기 서비스 ‘와드’
-    summary:
-    description: API 서버, 데이터베이스 개발 (Node.js, Koa.js, MonogoDB)
-
+    title: 위치 정보 기반의 커뮤니티 서비스, ‘와드’ 개발
+    summary: "역할: API 서버, 데이터베이스 개발<br/>
+    사용 기술: Node.js, MongoDB, Heroku"
+    description: "'와드'는 사용자가 자신의 근황을 알릴 만한 장소에 와드를 표시하여 주변에 있는 사람들과 이를 공유하거나, 
+    사용자 주변에 동창들이 표시한 와드를 찾아 서로의 근황을 확인할 수 있는 위치 정보 기반의 커뮤니티 서비스입니다."
+ 
 - project:
     print: True
     modal: True
-    url:
+    url: https://github.com/AshtonYoon/DSM-Punishment-System
     image:
       path: punishment.png
     date: 2017년 12월 ~ 2018년 02월
-    title: DSM 기숙사 상/벌점 관리 시스템
-    summary:
-    description: GUI 클라이언트 (C#, WPF) 개발
+    title: DSM 기숙사 상/벌점 관리 시스템 개발
+    summary: "역할: GUI 클라이언트 개발<br/>
+    사용 기술: C#, WPF, Advance Installer"
+    description: "특정 학생에게 상/벌점을 부여하고 이를 편집하거나, 전체 상/벌점 내역을 조회하고 
+    이를 엑셀 파일로 다운로드 하는 기능을 통해 사감 선생님들의 기숙사 상/벌점 관리 작업을 
+    자동화 시켜주는 프로그램 및 서비스를 제공하고 있습니다."
 
 - project:
     print: True
     modal: True
-    url:
+    url: https://github.com/BubbleK2m/Poem-Dot-Renewal-Server
     image:
       path: poemdot.png
     date: 2017년 09월 ~ 2017년 11월
-    title: 아름다운 문학을 쓰는 서비스 '시.'
-    summary: 
-    description: API 서버 (Java, Vert.x), 데이터베이스 (MySQL) 개발
+    title: 아름다운 문학을 쓰는 커뮤니티 서비스, '시.' 개발
+    summary: "역할: API 서버, 데이터베이스 개발<br/>
+    사용 기술: Java, MySQL, AWS"
+    description: "'시.’는 사용자가 작성한 3개 이상의 시를 삭제가 불가능한 시집 형태로 만들어 다른 사용자들과
+    공유하는 방식을 통해 보다 신중한 글쓰기와 문학의 아름다움을 추구하는 커뮤니티 서비스입니다."
 
 - project:
     print: True
     modal: True
-    url:
+    url: https://github.com/Team-QSS/NoDoubt
     image:
       path: nodoubt.png 
     date: 2017년 03월 ~ 2017년 11월
-    title: 실시간 멀티 플레이어 보드게임 'No Doubt'
-    summary: 
-    description: TCP 소켓 서버 (Java), 데이터베이스 (MySQL) 개발
+    title: 실시간 멀티 플레이어 보드게임, 'No Doubt' 개발
+    summary: "역할: TCP 소켓 서버, 데이터베이스 개발<br/>
+    사용 기술: Java, MySQL, AWS"
+
+    description: "‘No Doubt’ 은 플레이어가 주사위를 던진 결과를 속여서 이동할 수 있으며, 
+    상대방이 이를 잡아낼 경우 해당 플레이어를 이전 체크 포인트로 돌려보낼 수 있는 '의심' 이라는 시스템을 통해
+    기존 주사위 보드게임에 새로운 심리전 요소를 추가한 멀티 플레이어 보드게임입니다."
